@@ -26,6 +26,7 @@ LOCAL_APPS = [
 
 THIRDS_APPS = [
     "rest_framework",
+    "drf_spectacular",
 ]
 
 INSTALLED_APPS = DJANGO_APPS + LOCAL_APPS + THIRDS_APPS
@@ -98,4 +99,10 @@ STATIC_URL = "static/"
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 # REST Framework
-REST_FRAMEWORK = {}
+REST_FRAMEWORK = {
+    "DEFAULT_SCHEMA_CLASS": "drf_spectacular.openapi.AutoSchema",
+}
+
+SPECTACULAR_SETTINGS = {
+    "TITLE": "DRF Ecommerce",
+}
