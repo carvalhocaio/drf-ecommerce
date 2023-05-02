@@ -20,6 +20,10 @@ DJANGO_APPS = [
     "django.contrib.staticfiles",
 ]
 
+LOCAL_APPS = [
+    "config.product",
+]
+
 THIRDS_APPS = [
     "rest_framework",
 ]
@@ -61,7 +65,7 @@ WSGI_APPLICATION = "config.wsgi.application"
 
 AUTH_PASSWORD_VALIDATORS = [
     {
-        "NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator",
+        "NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator"
     },
     {
         "NAME": "django.contrib.auth.password_validation.MinimumLengthValidator",
@@ -73,7 +77,6 @@ AUTH_PASSWORD_VALIDATORS = [
         "NAME": "django.contrib.auth.password_validation.NumericPasswordValidator",
     },
 ]
-
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.1/topics/i18n/
