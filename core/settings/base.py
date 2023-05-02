@@ -28,7 +28,7 @@ THIRDS_APPS = [
     "rest_framework",
 ]
 
-INSTALLED_APPS = DJANGO_APPS + THIRDS_APPS
+INSTALLED_APPS = DJANGO_APPS + LOCAL_APPS + THIRDS_APPS
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
