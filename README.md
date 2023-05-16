@@ -1,8 +1,8 @@
 # DRF E-commerce
 
-Este é um projeto de exemplo de uma API de e-commerce desenvolvida usando Django Rest Framework (DRF). 
+This is a sample project of an e-commerce API developed using Django Rest Framework (DRF).
 
-A ideia é mostrar o uso de alguns pacotes que podem ser usados em projetos futuros:
+The idea is to show the use of some packages that can be used in future projects:
 
 - pytest
 - pytest-django
