@@ -1,4 +1,4 @@
-# DRF E-commerce
+# DRF e-commerce
 
 This is a sample project of an e-commerce API developed using Django Rest Framework (DRF).
 
